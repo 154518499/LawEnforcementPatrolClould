@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LawEnforcementPatrolClould.iml" filepath="$PROJECT_DIR$/LawEnforcementPatrolClould.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-user/consumer-user.iml" filepath="$PROJECT_DIR$/consumer-user/consumer-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_one/eureka_one.iml" filepath="$PROJECT_DIR$/eureka_one/eureka_one.iml" />
       <module fileurl="file://$PROJECT_DIR$/provider-user/provider-user.iml" filepath="$PROJECT_DIR$/provider-user/provider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/sso/sso.iml" filepath="$PROJECT_DIR$/sso/sso.iml" />

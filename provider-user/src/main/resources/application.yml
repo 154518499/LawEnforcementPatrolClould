@@ -1,9 +1,8 @@
 server:
-  #�˿ں�
-  port: 6662
+  port: 6664
 spring:
   application:
-    name: provider-user
+    name: provider-user #对应eureka中的 Application
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/zf?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
     username: root
@@ -30,7 +29,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://admin:154518499@localhost:8761/eureka/
   instance:
     prefer-ip-address: true
     #hostname: ${spring.cloud.client.ipAddress}

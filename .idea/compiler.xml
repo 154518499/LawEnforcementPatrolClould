@@ -6,15 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="consumer-user" />
         <module name="eureka_one" />
-        <module name="LawEnforcementPatrolClould" />
         <module name="provider-user" />
         <module name="sso" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
+      <module name="consumer-user" target="1.8" />
       <module name="eureka_one" target="1.8" />
-      <module name="LawEnforcementPatrolClould" target="1.5" />
+      <module name="LawEnforcementPatrolClould" target="1.8" />
       <module name="provider-user" target="1.8" />
       <module name="sso" target="1.8" />
     </bytecodeTargetLevel>

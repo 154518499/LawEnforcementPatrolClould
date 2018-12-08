@@ -4,9 +4,15 @@ eureka:
   instance:
     hostname: localhost
   client:
-    #ÓÉÓÚ¸ÃÓ¦ÓÃÎª×¢²áÖĞĞÄ,ËùÒÔÉèÖÃÎªfalse,´ú±í²»Ïò×¢²áÖĞĞÄ×¢²á×Ô¼º
     registerWithEureka: false
-    #ÓÉÓÚ×¢²áÖĞĞÄµÄÖ°Ôğ¾ÍÊÇÎ¬»¤·şÎñÊµÀı,Ëü²¢²»ĞèÒªÈ¥¼ìË÷·şÎñ,ËùÒÔÒ²ÉèÖÃÎªfalse
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+
+## å®‰å…¨è®¤è¯çš„é…ç½®(SpringBoot2.0ä¹‹å‰çš„é…ç½®)
+#security:
+#  basic:
+#    enabled: true
+#  user:
+#    name: wolf  # ç”¨æˆ·å
+#    password: abc123   # ç”¨æˆ·å¯†ç 

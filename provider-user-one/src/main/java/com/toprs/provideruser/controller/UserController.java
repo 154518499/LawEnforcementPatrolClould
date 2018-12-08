@@ -23,7 +23,7 @@ public class UserController {
 
     @RequestMapping(value = "/getUser/{userId}")
     public User getUser(@PathVariable(value = "userId")Long userId){
-        System.out.println("ip:1110");
+        System.out.println("ip:1111");
         return userService.getUser(userId);
     }
 }

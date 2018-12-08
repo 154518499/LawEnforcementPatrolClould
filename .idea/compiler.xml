@@ -11,6 +11,7 @@
         <module name="eureka_one" />
         <module name="provider-user" />
         <module name="provider-user-one" />
+        <module name="ribbon-without-eureka" />
         <module name="sso" />
       </profile>
     </annotationProcessing>
@@ -21,6 +22,7 @@
       <module name="LawEnforcementPatrolClould" target="1.8" />
       <module name="provider-user" target="1.8" />
       <module name="provider-user-one" target="1.8" />
+      <module name="ribbon-without-eureka" target="1.8" />
       <module name="sso" target="1.8" />
     </bytecodeTargetLevel>
   </component>

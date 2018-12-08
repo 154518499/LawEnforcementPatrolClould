@@ -1,5 +1,5 @@
 server:
-  port: 6664
+  port: 1110
 spring:
   application:
     name: provider-user #对应eureka中的 Application

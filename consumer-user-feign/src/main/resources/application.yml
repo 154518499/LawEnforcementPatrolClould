@@ -32,3 +32,11 @@ eureka:
       defaultZone: http://admin:154518499@localhost:8761/eureka/
   instance:
     prefer-ip-address: true
+#ÎªFeginÅäÖÃÈÕÖ¾
+logging:
+  level:
+    com.toprs.consumeruserfeign.fegin.UserFeginClient: DEBUG
+hystrix:
+  metrics:
+    polling-interval-ms:
+

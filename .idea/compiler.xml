@@ -11,6 +11,7 @@
         <module name="consumer-user-feign" />
         <module name="consumer-user-feign-customizing" />
         <module name="eureka_one" />
+        <module name="eureka_two" />
         <module name="provider-user" />
         <module name="provider-user-one" />
         <module name="ribbon-without-eureka" />
@@ -23,6 +24,7 @@
       <module name="consumer-user-feign" target="1.8" />
       <module name="consumer-user-feign-customizing" target="1.8" />
       <module name="eureka_one" target="1.8" />
+      <module name="eureka_two" target="1.8" />
       <module name="LawEnforcementPatrolClould" target="1.8" />
       <module name="provider-user" target="1.8" />
       <module name="provider-user-one" target="1.8" />

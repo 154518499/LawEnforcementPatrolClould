@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
         <module name="consumer-user" />
+        <module name="consumer-user-feign" />
+        <module name="consumer-user-feign-customizing" />
         <module name="eureka_one" />
         <module name="provider-user" />
         <module name="provider-user-one" />
@@ -18,6 +20,8 @@
     <bytecodeTargetLevel>
       <module name="common" target="1.8" />
       <module name="consumer-user" target="1.8" />
+      <module name="consumer-user-feign" target="1.8" />
+      <module name="consumer-user-feign-customizing" target="1.8" />
       <module name="eureka_one" target="1.8" />
       <module name="LawEnforcementPatrolClould" target="1.8" />
       <module name="provider-user" target="1.8" />

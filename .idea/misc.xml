@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/consumer-user/pom.xml" />
         <option value="$PROJECT_DIR$/provider-user-one/pom.xml" />
         <option value="$PROJECT_DIR$/ribbon-without-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-user-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-user-feign-customizing/pom.xml" />
       </list>
     </option>
   </component>

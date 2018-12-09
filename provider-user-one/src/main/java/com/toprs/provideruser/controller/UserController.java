@@ -6,6 +6,7 @@ import com.toprs.provideruser.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -25,5 +26,11 @@ public class UserController {
     public User getUser(@PathVariable(value = "userId")Long userId){
         System.out.println("ip:1111");
         return userService.getUser(userId);
+    }
+
+    @RequestMapping(value = "/postUser",method = RequestMethod.POST)
+    public User postUser(User user){
+        System.out.println("postUser");
+        return user;
     }
 }

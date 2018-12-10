@@ -39,11 +39,11 @@
 			<artifactId>eureka-client</artifactId>
 			<version>RELEASE</version>
 		</dependency>
-        <dependency>
-            <groupId>com.netflix.ribbon</groupId>
-            <artifactId>ribbon-loadbalancer</artifactId>
-            <version>RELEASE</version>
-        </dependency>
+		<!-- spring-boot-监控-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
     </dependencies>
 
 	<dependencyManagement>

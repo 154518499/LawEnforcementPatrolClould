@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>provider-user</name>
+	<name>provider-user-one</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -39,11 +39,6 @@
 			<artifactId>eureka-client</artifactId>
 			<version>RELEASE</version>
 		</dependency>
-        <dependency>
-            <groupId>com.netflix.ribbon</groupId>
-            <artifactId>ribbon-loadbalancer</artifactId>
-            <version>RELEASE</version>
-        </dependency>
     </dependencies>
 
 	<dependencyManagement>

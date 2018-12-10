@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @Date: 2018/12/9 10:32
  * @Description:
  */
-@FeignClient("provider-user") //eureka中Application的名称
+@FeignClient(name= "provider-user") //eureka中Application的名称
 public interface UserFeginClient {
     @RequestMapping(value = "/user/getUser/{userId}", method = RequestMethod.GET)
     User getUser(@PathVariable(value="userId") Integer userId);

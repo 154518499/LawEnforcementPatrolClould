@@ -20,7 +20,7 @@ import org.springframework.web.client.RestTemplate;
  * 添加到@ComponentScan的excludeFilters中.
  * 标注@ExcludeFromComponentScan注解的类将排除到SpringBoot启动类的扫描范围
  */
-@RibbonClient(name = "provider-user", configuration = RibbonConfiguration.class)
+@RibbonClient(name = "s-provider-user", configuration = RibbonConfiguration.class)
 @ComponentScan(excludeFilters = { @ComponentScan.Filter(type = FilterType.ANNOTATION, value = ExcludeFromComponentScan.class) })
 public class ConsumerUserApplication {
 

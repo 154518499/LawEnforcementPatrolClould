@@ -18,7 +18,7 @@
 @RibbonClient(name = "RibbonConfig", configuration = RibbonConfiguration.class) 配置Ribbon自定义负载均衡策略 ,配置类应该放到启动类扫描范围之外,或使用@ComponentScan,,加在SpringBoot启动类上  
 @FeignClient(name="provider-user") 加在FeignClient接口上,完成对服务提供方的接口绑定  
 @FeignClient(name = "fegin-customizing",url="http://localhost:8761/",configuration = FeginConfiguration.class)只配置name则name的值为注册在eureka中的Application.如果配置url,configuration则name仅是一个FeignClient名,没实际意义.  
-@EnableFeignClients 加在SpringBoot启动类上,不加该注解不加此注解FeginClient不能注入
+@EnableFeignClients 加在SpringBoot启动类上,不加此注解FeginClient不能注入
 
   
 

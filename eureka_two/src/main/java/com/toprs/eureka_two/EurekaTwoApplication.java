@@ -1,0 +1,14 @@
+package com.toprs.eureka_two;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
+@SpringBootApplication
+@EnableEurekaServer
+public class EurekaTwoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(EurekaTwoApplication.class, args);
+	}
+}

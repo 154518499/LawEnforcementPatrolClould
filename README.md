@@ -7,10 +7,11 @@
 8081 sso  
 8082 ribbon-without-eureka ribbon 脱离eureka使用  
 6661 consumer-user  ribbon+restTemplate调用服务提供者,实现客户端负载均衡  
-6662 consumer-user-feign  
-6663 consumer-user-feign-customizing 自定义配置fegin    
-6664 consumer-user-hystrix(ribbon)  
-6665 consumer-user-hystrix-propagation  
+6662 consumer-user-feign |feign调用服务提供者
+6663 consumer-user-feign-customizing |自定义配置fegin      
+6664 consumer-user-hystrix |ribbon整合hystrix  
+6665 consumer-user-hystrix-propagation |自定义Hystrix隔离策略  
+6666 consumer-user-fegin-hystrix |fegin整合Hystrix  
 
 
 # SpringCloud注解汇总  

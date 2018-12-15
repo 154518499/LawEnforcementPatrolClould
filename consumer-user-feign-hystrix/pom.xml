@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.toprs</groupId>
-	<artifactId>consumer-user-ribbon-hystrix</artifactId>
+	<artifactId>consumer-user-feign-hystrix</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>consumer-user-hystrix</name>
+	<name>consumer-user-feign-hystrix</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -39,7 +39,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
 
 		<dependency>

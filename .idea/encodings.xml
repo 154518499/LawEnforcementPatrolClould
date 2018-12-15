@@ -6,6 +6,7 @@
     <file url="file://$PROJECT_DIR$/consumer-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-user-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-user-feign-customizing" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-user-feign-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-user-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-user-hystrix-propagation" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-user-hystrix-propagation" charset="UTF-8" />

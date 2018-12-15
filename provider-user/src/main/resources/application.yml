@@ -29,7 +29,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://admin:154518499@localhost:8761/eureka/
+      defaultZone: http://localhost:8763/eureka/,http://localhost:8764/eureka/,http://localhost:8765/eureka/
   instance:
     prefer-ip-address: true
     #hostname: ${spring.cloud.client.ipAddress}

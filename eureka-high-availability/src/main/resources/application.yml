@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: EUREKA-HIGHT-AVAILABLITY
+#---------
+#server:
+#  port: 8763
+#eureka:
+#  instance:
+#    hostname: localhost
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8764/eureka/,http://localhost:8765/eureka/
+
+##---------
+#server:
+#  port: 8764
+#eureka:
+#  instance:
+#    hostname: localhost
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8763/eureka/,http://localhost:8765/eureka/
+#
+##---------
+server:
+  port: 8765
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8763/eureka/,http://localhost:8764/eureka/
+

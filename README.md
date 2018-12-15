@@ -11,7 +11,7 @@
 
 
 # SpringCloud注解汇总      
-@EnableEurekaServer 开启Eureka Server,加在SpringBoot启动类上
+@EnableEurekaServer 开启Eureka Server,加在SpringBoot启动类上  
 @EnableDiscoveryClient 服务发现,支持多种注册中心(eureka、consul、zookeeper..),基于spring-cloud-commons依赖,加在SpringBoot启动类上   
 @EnableEurekaClient 服务发现,只能为eureka使用,基于spring-cloud-netflix依赖,加在SpringBoot启动类上  
 @LoadBalanced 加在restTemplate的Bean配置上,使restTemplate具有负载均衡的能力,默认的负载均衡策略为轮循方式  

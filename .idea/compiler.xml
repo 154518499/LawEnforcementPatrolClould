@@ -10,6 +10,8 @@
         <module name="consumer-user" />
         <module name="consumer-user-feign" />
         <module name="consumer-user-feign-customizing" />
+        <module name="consumer-user-hystrix" />
+        <module name="consumer-user-hystrix-propagation" />
         <module name="eureka-high-availability" />
         <module name="eureka_one" />
         <module name="eureka_two" />
@@ -24,6 +26,8 @@
       <module name="consumer-user" target="1.8" />
       <module name="consumer-user-feign" target="1.8" />
       <module name="consumer-user-feign-customizing" target="1.8" />
+      <module name="consumer-user-hystrix" target="1.8" />
+      <module name="consumer-user-hystrix-propagation" target="1.8" />
       <module name="eureka-high-availability" target="1.8" />
       <module name="eureka_one" target="1.8" />
       <module name="eureka_two" target="1.8" />

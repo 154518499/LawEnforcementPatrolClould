@@ -14,6 +14,8 @@
         <option value="$PROJECT_DIR$/consumer-user-feign-customizing/pom.xml" />
         <option value="$PROJECT_DIR$/eureka_two/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-high-availability/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-user-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-user-hystrix-propagation/pom.xml" />
       </list>
     </option>
   </component>

@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/consumer-user/consumer-user.iml" filepath="$PROJECT_DIR$/consumer-user/consumer-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer-user-feign/consumer-user-feign.iml" filepath="$PROJECT_DIR$/consumer-user-feign/consumer-user-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer-user-feign-customizing/consumer-user-feign-customizing.iml" filepath="$PROJECT_DIR$/consumer-user-feign-customizing/consumer-user-feign-customizing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-user-hystrix/consumer-user-hystrix.iml" filepath="$PROJECT_DIR$/consumer-user-hystrix/consumer-user-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-user-hystrix-propagation/consumer-user-hystrix-propagation.iml" filepath="$PROJECT_DIR$/consumer-user-hystrix-propagation/consumer-user-hystrix-propagation.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-high-availability/eureka-high-availability.iml" filepath="$PROJECT_DIR$/eureka-high-availability/eureka-high-availability.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_one/eureka_one.iml" filepath="$PROJECT_DIR$/eureka_one/eureka_one.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_two/eureka_two.iml" filepath="$PROJECT_DIR$/eureka_two/eureka_two.iml" />

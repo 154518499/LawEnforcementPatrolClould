@@ -1,8 +1,8 @@
 server:
-  port: 6662
+  port: 6665
 spring:
   application:
-    name: consumer-user-fegin
+    name: consumer-user-hystrix-propagation
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/zf?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
     username: root
@@ -18,25 +18,9 @@ spring:
       max-lifetime: 1800000
       connection-timeout: 30000
       connection-test-query: SELECT 1
-  jpa:
-    database: mysql
-    generate-ddl: true
-    show-sql: true
-    hibernate:
-      ddl-auto: update
-      naming:
-        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8763/eureka/,http://localhost:8764/eureka/,http://localhost:8765/eureka/
   instance:
     prefer-ip-address: true
-#为Fegin添加日志־
-logging:
-  level:
-    com.toprs.consumeruserfeign.fegin.UserFeginClient: DEBUG
-hystrix:
-  metrics:
-    polling-interval-ms:
-

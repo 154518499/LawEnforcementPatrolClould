@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/consumer-user-feign-without-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/consumer-user-feign-with-hystrix-hystrix-factory/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-turbine/pom.xml" />
       </list>
     </option>
   </component>

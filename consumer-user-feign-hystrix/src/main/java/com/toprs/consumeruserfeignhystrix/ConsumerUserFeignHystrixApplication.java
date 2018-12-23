@@ -19,7 +19,7 @@ public class ConsumerUserFeignHystrixApplication {
 		HystrixMetricsStreamServlet streamServlet = new HystrixMetricsStreamServlet();
 		ServletRegistrationBean registrationBean = new ServletRegistrationBean(streamServlet);
 		registrationBean.setLoadOnStartup(1);  //系统启动时加载顺序
-		registrationBean.addUrlMappings("/hystrix.stream");//路径
+		registrationBean.addUrlMappings("/actuator/hystrix.stream");//路径
 		registrationBean.setName("HystrixMetricsStreamServlet");
 		return registrationBean;
 	}

@@ -11,12 +11,15 @@
         <module name="consumer-user-feign" />
         <module name="consumer-user-feign-customizing" />
         <module name="consumer-user-feign-hystrix" />
+        <module name="consumer-user-feign-with-hystrix-hystrix-factory" />
+        <module name="consumer-user-feign-without-hystrix" />
         <module name="consumer-user-hystrix" />
         <module name="consumer-user-hystrix-propagation" />
         <module name="consumer-user-ribbon-hystrix" />
         <module name="eureka-high-availability" />
         <module name="eureka_one" />
         <module name="eureka_two" />
+        <module name="hystrix-dashboard" />
         <module name="provider-user" />
         <module name="provider-user-one" />
         <module name="ribbon-without-eureka" />
@@ -29,12 +32,15 @@
       <module name="consumer-user-feign" target="1.8" />
       <module name="consumer-user-feign-customizing" target="1.8" />
       <module name="consumer-user-feign-hystrix" target="1.8" />
+      <module name="consumer-user-feign-with-hystrix-hystrix-factory" target="1.8" />
+      <module name="consumer-user-feign-without-hystrix" target="1.8" />
       <module name="consumer-user-hystrix" target="1.8" />
       <module name="consumer-user-hystrix-propagation" target="1.8" />
       <module name="consumer-user-ribbon-hystrix" target="1.8" />
       <module name="eureka-high-availability" target="1.8" />
       <module name="eureka_one" target="1.8" />
       <module name="eureka_two" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
       <module name="LawEnforcementPatrolClould" target="1.8" />
       <module name="provider-user" target="1.8" />
       <module name="provider-user-one" target="1.8" />

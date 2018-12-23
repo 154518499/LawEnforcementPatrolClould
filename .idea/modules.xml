@@ -8,11 +8,14 @@
       <module fileurl="file://$PROJECT_DIR$/consumer-user-feign/consumer-user-feign.iml" filepath="$PROJECT_DIR$/consumer-user-feign/consumer-user-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer-user-feign-customizing/consumer-user-feign-customizing.iml" filepath="$PROJECT_DIR$/consumer-user-feign-customizing/consumer-user-feign-customizing.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer-user-feign-hystrix/consumer-user-feign-hystrix.iml" filepath="$PROJECT_DIR$/consumer-user-feign-hystrix/consumer-user-feign-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-user-feign-with-hystrix-hystrix-factory/consumer-user-feign-with-hystrix-hystrix-factory.iml" filepath="$PROJECT_DIR$/consumer-user-feign-with-hystrix-hystrix-factory/consumer-user-feign-with-hystrix-hystrix-factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-user-feign-without-hystrix/consumer-user-feign-without-hystrix.iml" filepath="$PROJECT_DIR$/consumer-user-feign-without-hystrix/consumer-user-feign-without-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer-user-hystrix/consumer-user-hystrix.iml" filepath="$PROJECT_DIR$/consumer-user-hystrix/consumer-user-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer-user-hystrix-propagation/consumer-user-hystrix-propagation.iml" filepath="$PROJECT_DIR$/consumer-user-hystrix-propagation/consumer-user-hystrix-propagation.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-high-availability/eureka-high-availability.iml" filepath="$PROJECT_DIR$/eureka-high-availability/eureka-high-availability.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_one/eureka_one.iml" filepath="$PROJECT_DIR$/eureka_one/eureka_one.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_two/eureka_two.iml" filepath="$PROJECT_DIR$/eureka_two/eureka_two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/provider-user/provider-user.iml" filepath="$PROJECT_DIR$/provider-user/provider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/provider-user-one/provider-user-one.iml" filepath="$PROJECT_DIR$/provider-user-one/provider-user-one.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon-without-eureka/ribbon-without-eureka.iml" filepath="$PROJECT_DIR$/ribbon-without-eureka/ribbon-without-eureka.iml" />

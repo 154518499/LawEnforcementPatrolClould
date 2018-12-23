@@ -17,6 +17,9 @@
         <option value="$PROJECT_DIR$/consumer-user-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/consumer-user-hystrix-propagation/pom.xml" />
         <option value="$PROJECT_DIR$/consumer-user-feign-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-user-feign-without-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-user-feign-with-hystrix-hystrix-factory/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-dashboard/pom.xml" />
       </list>
     </option>
   </component>

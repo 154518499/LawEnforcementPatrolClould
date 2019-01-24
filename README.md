@@ -19,8 +19,8 @@
 6668 consumer-user-feign-with-hystrix-hystrix-factory feign整合Hystrix記錄錯誤日志    
 7771 gateway-zuul  
 7772 gateway-zuul-reg-exp  
-7773 gateway-zuul-fallback
-
+7773 gateway-zuul-fallback  
+7774 gateway-zuul-filter    
 # SpringCloud注解汇总  
 ## eureka   
 @EnableEurekaServer 开启Eureka Server,加在SpringBoot启动类上  

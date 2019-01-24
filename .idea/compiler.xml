@@ -22,6 +22,7 @@
         <module name="file-upload" />
         <module name="gateway-zuul" />
         <module name="gateway-zuul-fallback" />
+        <module name="gateway-zuul-filter" />
         <module name="gateway-zuul-reg-exp" />
         <module name="hystrix-dashboard" />
         <module name="hystrix-turbine" />
@@ -48,6 +49,7 @@
       <module name="file-upload" target="1.8" />
       <module name="gateway-zuul" target="1.8" />
       <module name="gateway-zuul-fallback" target="1.8" />
+      <module name="gateway-zuul-filter" target="1.8" />
       <module name="gateway-zuul-reg-exp" target="1.8" />
       <module name="hystrix-dashboard" target="1.8" />
       <module name="hystrix-turbine" target="1.8" />

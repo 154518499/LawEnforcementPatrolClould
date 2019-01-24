@@ -25,6 +25,7 @@
         <option value="$PROJECT_DIR$/gateway-zuul-reg-exp/pom.xml" />
         <option value="$PROJECT_DIR$/file-upload/pom.xml" />
         <option value="$PROJECT_DIR$/gateway-zuul-fallback/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-zuul-filter/pom.xml" />
       </list>
     </option>
   </component>

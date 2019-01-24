@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/file-upload/file-upload.iml" filepath="$PROJECT_DIR$/file-upload/file-upload.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway-zuul/gateway-zuul.iml" filepath="$PROJECT_DIR$/gateway-zuul/gateway-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway-zuul-fallback/gateway-zuul-fallback.iml" filepath="$PROJECT_DIR$/gateway-zuul-fallback/gateway-zuul-fallback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-zuul-filter/gateway-zuul-filter.iml" filepath="$PROJECT_DIR$/gateway-zuul-filter/gateway-zuul-filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway-zuul-reg-exp/gateway-zuul-reg-exp.iml" filepath="$PROJECT_DIR$/gateway-zuul-reg-exp/gateway-zuul-reg-exp.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix-turbine/hystrix-turbine.iml" filepath="$PROJECT_DIR$/hystrix-turbine/hystrix-turbine.iml" />

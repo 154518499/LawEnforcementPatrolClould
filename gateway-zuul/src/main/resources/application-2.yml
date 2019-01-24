@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: gateway-zuul
+server:
+  port: 7771
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8763/eureka/,http://localhost:8764/eureka/,http://localhost:8765/eureka/
+  instance:
+    prefer-ip-address: true
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 60000
+zuul:
+  #ignored-services: '*' #忽略所有反向代理.只能访问配置的服务(provider-user 404 但user可以访问)
+  #ignored-services: provider-user #忽略application为provider-user的代理
+  routes:
+    abc: #随便写,唯一的就可以
+      path: /user/**
+      serviceId : provider-user
+    #zuul反向代理provider-user路径为 user
+    #http://localhost:7771/provider-user/user/getUser/1 -> http://localhost:7771/user/user/getUser/1
+

@@ -1,0 +1,15 @@
+server:
+  port: 8085
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/zf?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+    username: root
+    password: root
+  application:
+    name: file-upload
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8763/eureka/,http://localhost:8764/eureka/,http://localhost:8765/eureka/
+  instance:
+    prefer-ip-address: true

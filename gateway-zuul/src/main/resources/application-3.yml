@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: gateway-zuul
+server:
+  port: 7771
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8763/eureka/,http://localhost:8764/eureka/,http://localhost:8765/eureka/
+  instance:
+    prefer-ip-address: true
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 60000
+zuul:
+  routes:
+    abc: #随便写,唯一的就可以
+      path: /user/**
+      url : http://localhost:7771/provider-user
+
+

@@ -19,6 +19,10 @@
         <module name="eureka-high-availability" />
         <module name="eureka_one" />
         <module name="eureka_two" />
+        <module name="file-upload" />
+        <module name="gateway-zuul" />
+        <module name="gateway-zuul-fallback" />
+        <module name="gateway-zuul-reg-exp" />
         <module name="hystrix-dashboard" />
         <module name="hystrix-turbine" />
         <module name="provider-user" />
@@ -41,6 +45,10 @@
       <module name="eureka-high-availability" target="1.8" />
       <module name="eureka_one" target="1.8" />
       <module name="eureka_two" target="1.8" />
+      <module name="file-upload" target="1.8" />
+      <module name="gateway-zuul" target="1.8" />
+      <module name="gateway-zuul-fallback" target="1.8" />
+      <module name="gateway-zuul-reg-exp" target="1.8" />
       <module name="hystrix-dashboard" target="1.8" />
       <module name="hystrix-turbine" target="1.8" />
       <module name="LawEnforcementPatrolClould" target="1.8" />

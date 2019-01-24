@@ -21,6 +21,10 @@
         <option value="$PROJECT_DIR$/consumer-user-feign-with-hystrix-hystrix-factory/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-zuul-reg-exp/pom.xml" />
+        <option value="$PROJECT_DIR$/file-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-zuul-fallback/pom.xml" />
       </list>
     </option>
   </component>

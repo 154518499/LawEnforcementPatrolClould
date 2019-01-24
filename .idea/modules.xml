@@ -15,6 +15,10 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-high-availability/eureka-high-availability.iml" filepath="$PROJECT_DIR$/eureka-high-availability/eureka-high-availability.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_one/eureka_one.iml" filepath="$PROJECT_DIR$/eureka_one/eureka_one.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_two/eureka_two.iml" filepath="$PROJECT_DIR$/eureka_two/eureka_two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/file-upload/file-upload.iml" filepath="$PROJECT_DIR$/file-upload/file-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-zuul/gateway-zuul.iml" filepath="$PROJECT_DIR$/gateway-zuul/gateway-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-zuul-fallback/gateway-zuul-fallback.iml" filepath="$PROJECT_DIR$/gateway-zuul-fallback/gateway-zuul-fallback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-zuul-reg-exp/gateway-zuul-reg-exp.iml" filepath="$PROJECT_DIR$/gateway-zuul-reg-exp/gateway-zuul-reg-exp.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix-turbine/hystrix-turbine.iml" filepath="$PROJECT_DIR$/hystrix-turbine/hystrix-turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/provider-user/provider-user.iml" filepath="$PROJECT_DIR$/provider-user/provider-user.iml" />

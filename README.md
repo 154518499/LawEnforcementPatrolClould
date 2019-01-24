@@ -7,7 +7,8 @@
 8081 sso  
 8082 ribbon-without-eureka ribbon 脱离eureka使用   
 8083 hystrix-dashboard Hystrix-Dashboard仪表盘 以6666 consumer-user-fegin-hystrix爲例 http://localhost:6666/actuator/hystrix.stream,调用turbine:http://localhost:8084/turbine.stream   
-8084 hystrix-turbine Hystrix Turbine将每个服务Hystrix Dashboard数据进行了整合
+8084 hystrix-turbine Hystrix Turbine将每个服务Hystrix Dashboard数据进行了整合  
+8085 file-upload文件下载 文件上传命令;curl -F "file=@C:\Users\y\Desktop\sql.txt" http://localhost:7771/file-upload/upload zuul上传大文件绕过spring文件上传限制(uri前面加/zuul/):http://localhost:7771/zuul/file-upload/upload   
 6661 consumer-user  ribbon+restTemplate调用服务提供者,实现客户端负载均衡  
 6662 consumer-user-feign |feign调用服务提供者
 6663 consumer-user-feign-customizing |自定义配置fegin      
@@ -15,8 +16,10 @@
 6665 consumer-user-hystrix-propagation |自定义Hystrix隔离策略  
 6666 consumer-user-fegin-hystrix |fegin整合Hystrix 解决hystrix.stream404 
 6667 consumer-user-feign-without-hystrix   
-6668 consumer-user-feign-with-hystrix-hystrix-factory feign整合Hystrix記錄錯誤日志   
-
+6668 consumer-user-feign-with-hystrix-hystrix-factory feign整合Hystrix記錄錯誤日志    
+7771 gateway-zuul  
+7772 gateway-zuul-reg-exp  
+7773 gateway-zuul-fallback
 
 # SpringCloud注解汇总  
 ## eureka   
@@ -42,7 +45,13 @@ Hystrix中默认并且推荐使用线程隔离（THREAD)，因为这种方式有
 配置信号量隔离:@HystrixCommand(fallbackMethod = "getUserFallback" , commandProperties = @HystrixProperty(name = "execution.isolation.strategy", value = "SEMAPHORE"))   
 @FeignClient(name= "provider-user" ,fallback = HystrixClientFallback.class,fallbackFactory = HystrixClientFactory.class) feign整合Hystrix 如果需要回退方法打印错误信息，可以使用fallbackFactory（fallback和fallbackFactory只能使用其中一种   
 @EnableHystrixDashboard 声明为一个HystrixDashboard客户端,加在SpringBoot启动类上 访问路径http://localhost:8083/hystrix
-@EnableTurbine 声明为一个Turbine客户端 默认调用路径 IP:host/actuator/hystrix.stream   
+@EnableTurbine 声明为一个Turbine客户端 默认调用路径 IP:host/actuator/hystrix.stream  
+## Zuul 
+@EnableZuulProxy
+声明为一个zuul客户端,加在SpringBoot启动类上,完成服务发现不需添加@EnableDiscoveryClient注解.zuul没有内置EurekaClient,所以要添加eureka依赖.
+使用方法:如:ApplicationName是PROVIDER-USER,URL是user/getUser/1,则zuul路径:http://localhost:7771/provider-user/user/getUser/1.(注意区分ApplicationName的大小写,以spring.application.name为准)
+zuul会默认反向代理所有注册在eureka上的服务
+
  
 
  
